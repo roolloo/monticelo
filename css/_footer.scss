@@ -1,0 +1,180 @@
+.footer__map {
+	width: 100%;
+	background: url("/img/Map.png") center/cover no-repeat;
+	height: 697px;
+}
+
+.footer {
+	height: 1223px;
+}
+
+.footer__mine {
+	background: url("/img/Bg\ \(5\).png") center/cover no-repeat;
+	height: 526px;
+}
+
+.cop {
+	padding-top: 41px;
+	width: 406px;
+	height: 18px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: "Gotham";
+}
+
+.footer__cont {
+	width: 770px;
+	margin: 0 auto;
+}
+
+.vert {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.footer_left {
+	padding-top: 202px;
+	float: left;
+}
+
+.footer__right {
+	float: right;
+	padding-top: 202px;
+
+}
+
+.footer__center {
+	position: absolute;
+	width: 770px;
+
+	filter: drop-shadow(0px -4px 15px rgba(133, 133, 133, 0.2));
+	background-color: #ffffff;
+	left: 0;
+	right: 0;
+	margin: -300px auto;
+}
+
+.footer__title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 42px;
+	line-height: 22px;
+	color: #2c4058;
+	font-weight: bold;
+	font-family: "Gotham";
+	padding-top: 50px;
+	position: relative;
+	margin-bottom: 7px;
+}
+
+
+.footer__title::before {
+	background-color: #2c4058;
+	width: 100px;
+	height: 1px;
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0px;
+	margin: 0 auto;
+	top: 20px;
+}
+
+.form {
+	width: 655px;
+	margin: 0 auto;
+}
+
+.left__form {
+	font-size: 18px;
+	line-height: 34px;
+	color: #2c4058;
+	font-family: "Open Sans";
+	width: 310px;
+	float: left;
+	padding-bottom: 80px;
+	padding-top: 10px;
+}
+
+.left__form__text {
+	margin: 0;
+	margin-top: 30px;
+	padding-left: 26px;
+	position: relative;
+}
+
+.left__form__text:nth-of-type(1)::before {
+	font-family: 'icomoon';
+	content: "\e945";
+	position: absolute;
+	left: 0;
+}
+
+.left__form__text:nth-of-type(2)::before {
+	font-family: 'icomoon';
+	content: "\e977";
+	position: absolute;
+	left: 0;
+}
+
+.left__form__text:nth-of-type(3)::before {
+	font-family: 'icomoon';
+	content: "\e886";
+	position: absolute;
+	left: 0;
+}
+
+.left__form__text:nth-of-type(4)::before {
+	font-family: 'icomoon';
+	content: "\e921";
+	position: absolute;
+	left: 0;
+}
+
+.right__form {
+	float: right;
+	width: 310px;
+
+}
+
+.inp__des {
+	width: 100%;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2c4058;
+	font-family: "Gotham";
+	border: none;
+	border-bottom: 1px solid #2c405850;
+	padding-bottom: 20px;
+	margin-top: 44px;
+	outline: none;
+	transition: .4s;
+}
+
+.inp__des:focus {
+	border-color: #2c4058;
+
+}
+
+.inp2 {
+	margin-top: 40px;
+
+}
+
+
+.btn__footer {
+	width: 140px;
+	height: 50px;
+	background: none;
+	border: 1px solid #2c4058;
+	margin-top: 40px;
+	float: right;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 22px;
+	color: #2c4058;
+	font-family: "Gotham";
+	text-align: center;
+}

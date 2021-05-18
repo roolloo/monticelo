@@ -1,0 +1,128 @@
+.banner .slide__item {
+	width: 100px;
+	height: 800px;
+	background: url("/img/Bg.png") center no-repeat;
+	background-size: cover;
+}
+
+.banner .slick-list {
+	overflow: hidden;
+}
+
+.banner .slick-track {
+	display: flex;
+}
+
+.banner .slick-dots {
+	position: absolute;
+	right: 40px;
+	padding: 0;
+	top: 300px;
+	height: 158px + 49px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.banner .slick-dots li {
+	list-style-type: none;
+	width: 9px;
+	height: 9px;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.banner .slick-dots button {
+	display: none;
+
+}
+
+.banner .slick-dots li::before {
+	content: "";
+	display: block;
+	width: 9px;
+	height: 9px;
+	border: 1px solid rgb(255, 255, 255);
+	position: absolute;
+	border-radius: 50%;
+	transition: .5s;
+}
+
+.banner .slick-active::before {
+	background-color: #fff;
+
+}
+
+.banner__text {
+	color: #fff;
+	font-size: 80px;
+	letter-spacing: 4px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Gotham";
+	text-align: center;
+
+}
+
+.banner__pod__text {
+
+
+	font-size: 18px;
+	letter-spacing: 5px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: "Gotham";
+	text-align: center;
+
+}
+
+.text__content {
+	margin: 368px auto;
+	text-transform: uppercase;
+}
+
+.arrow {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: none;
+	border: 1px solid #ffffff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: -88px;
+	position: relative;
+}
+
+
+.arrow::before {
+	width: 4px;
+	height: 4px;
+	display: block;
+	content: "";
+	border: 1px solid #fff;
+	position: absolute;
+	top: 17px;
+	left: 17px;
+	border-left: none;
+	border-bottom: none;
+	transform: rotate(135deg);
+	animation: show1 1s infinite ease-in-out;
+}
+
+@keyframes show1 {
+	50% {
+		top: 10px;
+	}
+
+	80% {
+		top: 10px;
+		left: 14px;
+		width: 10px;
+		height: 10px;
+	}
+}

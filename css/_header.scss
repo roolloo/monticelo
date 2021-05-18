@@ -1,0 +1,110 @@
+.header__mine {
+	width: 1170px;
+	height: 160px;
+
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	position: absolute;
+	z-index: 10;
+}
+
+.mine__nav {
+	width: 613px;
+	float: right;
+}
+
+.mine__spisock {
+	display: flex;
+	float: right;
+	width: 600px;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 0;
+
+}
+
+.nav__sulcka {
+	padding-left: 22px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+	text-transform: uppercase;
+	font-family: 'Gotham';
+	position: relative;
+}
+
+.nav__sulcka::before {
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	position: absolute;
+	top: 2px;
+	transition: .4s;
+}
+
+.nav__sulcka:hover::before{
+	background: #fff;
+}
+
+.logo {
+	box-sizing: content-box;
+	width: 300px;
+}
+
+.soc__header {
+	display: flex;
+	width: 161px;
+	justify-content: space-between;
+	padding-left: 109px;
+}
+
+.soc__sulcka {
+	font-family: 'icomoon';
+	display: block;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #ffffffb2;
+	position: relative;
+}
+
+
+.soc__sulcka::before {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 22px;
+	position: absolute;
+	top: 10px;
+	left: 15px;transition: .5s;
+}
+.soc__sulcka:hover::before{
+	color: #000;
+}
+.soc__sulcka:hover{
+background-color: #fff;
+}
+.soc__sulcka:nth-of-type(1)::before {
+	content: "\f09a";
+	left: 15px;
+
+}
+
+.soc__sulcka:nth-of-type(2)::before {
+	content: "\e900";
+	left: 12px;
+
+}
+
+.soc__sulcka:nth-of-type(3)::before {
+	content: "\ea92";
+	left: 12px;
+
+}
